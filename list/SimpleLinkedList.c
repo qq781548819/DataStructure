@@ -19,7 +19,7 @@ struct sNode           //定义单链表结点类型
 void InitList(struct sNode** HL)  
 {  
     *HL = NULL;  
-}  
+}
   
 //2、清除线性表L的所有元素，即释放单链表的所有结点，使之成为空表  
 void ClearList(struct sNode** HL)  
